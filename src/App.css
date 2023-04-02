@@ -1,7 +1,11 @@
 body{
-    background: rgb(238, 236, 236);
+    background: rgb(238, 237, 237);
+/* background: linear-gradient(90deg, rgb(202, 236, 241) 0%, rgb(39, 113, 198) 0%, rgb(165, 234, 249) 100%); */
 }
 
+.navcolor{
+    background: rgb(166, 197, 247);
+}
 .navcol{
     background: rgb(255, 255, 255);
 }
@@ -11,12 +15,15 @@ body{
 }
 
 .lab-title{
-    font: 2rem 'Recoleta';
+    font: 2rem 'poppins';
+    font-weight: 800;
 }
 
 .sidebar{
     background: rgb(204,202,241);
-background: linear-gradient(90deg, rgba(204,202,241,1) 0%, rgb(80, 80, 248) 0%, rgb(122, 191, 255) 100%);
+background: linear-gradient(90deg, rgb(43, 112, 172) 0%, rgb(135, 179, 249) 0%, rgb(20, 145, 194) 100%);
+/* background:rgb(255, 255, 255); */
+/* background: rgb(39, 113, 198); */
 height: 550px;
 
     padding: 10px;
@@ -24,17 +31,23 @@ height: 550px;
 
 .tabs{
   height: 50px;
-  color:  rgb(255, 255, 255);
+  font: .95rem 'poppins';
+color: rgb(255, 255, 255);
+  /* color:  rgb(255, 255, 255); */
   padding: 10%;
 }
 
 .tabs:hover{
     height: 50px;
-    /* color:  rgb(0, 0, 0);
-    background: white; */
+    color:  rgb(255, 255, 255);
+    background: rgb(204,202,241);
+    background: linear-gradient(90deg, rgb(43, 112, 172) 0%, rgb(135, 179, 249) 0%, rgb(20, 145, 194) 100%);
+    /* color: white;
+    background: rgb(204,202,241);
+background: linear-gradient(90deg, rgba(204,202,241,1) 0%, rgb(80, 80, 248) 0%, rgb(122, 191, 255) 100%); */
     padding: 10%;
     padding-bottom: 40px;
-    border: 0.5px solid rgb(255, 255, 255);
+    border: 0.5px solid rgb(50, 174, 251);
     border-radius: 5px;
     box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.19);
     
@@ -42,4 +55,8 @@ height: 550px;
 
 .main{
     background: white;
+}
+
+.lab{
+    color: rgb(39, 113, 198);
 }
