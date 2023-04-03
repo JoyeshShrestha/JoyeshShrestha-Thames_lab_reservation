@@ -36,7 +36,7 @@ color: rgb(255, 255, 255);
   /* color:  rgb(255, 255, 255); */
   padding: 10%;
 }
-
+a:link { text-decoration: none; }
 .tabs:hover{
     height: 50px;
     color:  rgb(255, 255, 255);
@@ -59,4 +59,15 @@ background: linear-gradient(90deg, rgba(204,202,241,1) 0%, rgb(80, 80, 248) 0%, 
 
 .lab{
     color: rgb(39, 113, 198);
+}
+.bigDay{
+    font-size:3rem;
+    font-weight: 200;
+    color: rgb(41, 105, 179);
+}
+
+.date{
+    font: 2rem "poppins";
+    font-weight: 400;
+    color: rgb(115, 115, 115);
 }
